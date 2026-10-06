@@ -915,7 +915,7 @@ MonoBehaviour:
   textComponent: {fileID: 1904657092}
   actionAfterDialogue: 1
   objectToShow: {fileID: 0}
-  sceneToLoad: Round3 1
+  sceneToLoad: Round3 2
   lines:
   - characterName: 'Player:'
     sentence: "\u201CI ain\u2019t lookin\u2019 to kill you.\u201D"
@@ -940,13 +940,11 @@ MonoBehaviour:
     sentence: "\u201CThe last room.\u201D"
   - characterName: 'Player:'
     sentence: "\u201CThe owner?\u201D"
-  - characterName: Outcome
+  - characterName: 'Enemy:'
     sentence: "\u201CWhy don\u2019t ya go ask him yourself?\u201D"
-  - characterName: Outcome
-    sentence: " \u201CBut watch yourself, kid. The man you\u2019re hunting might
-      not be the one you oughta kill.\u201D"
-  - characterName: Outcome
-    sentence: The target may not be the real enemy.
+  - characterName: 'Enemy:'
+    sentence: "\u201CBut watch yourself, kid. The man you\u2019re hunting might not
+      be the one you oughta kill.\u201D"
   textSpeed: 0.1
 --- !u!114 &1137955262
 MonoBehaviour:

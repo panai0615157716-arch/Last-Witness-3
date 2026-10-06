@@ -1231,7 +1231,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   nameTextComponent: {fileID: 1258240707}
   textComponent: {fileID: 1904657092}
-  buttonToShowAfterDialogue: {fileID: 955765074}
+  actionAfterDialogue: 1
+  objectToShow: {fileID: 0}
+  sceneToLoad: Round2 1
   lines:
   - characterName: 'Enemy:'
     sentence: "\u201C\u2026You\u2019re letting me go?\u201D"
@@ -1247,12 +1249,6 @@ MonoBehaviour:
     sentence: Blood spills across the floor.
   - characterName: 
     sentence: The Player collapses.
-  - characterName: 'Enemy:'
-    sentence: "\u201CNobody lets anyone walk away alive in this place.\u201D"
-  - characterName: 
-    sentence: GAME OVER
-  - characterName: Outcome
-    sentence: The player dies.
   textSpeed: 0.1
 --- !u!114 &1137955262
 MonoBehaviour:

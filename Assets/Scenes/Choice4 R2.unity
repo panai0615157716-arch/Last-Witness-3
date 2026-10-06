@@ -1261,9 +1261,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   nameTextComponent: {fileID: 1258240707}
   textComponent: {fileID: 1904657092}
-  actionAfterDialogue: 0
+  actionAfterDialogue: 1
   objectToShow: {fileID: 0}
-  sceneToLoad: 
+  sceneToLoad: Round3 4
   lines:
   - characterName: 'Player:'
     sentence: "\u201CI\u2019m not gonna kill you.\u201D"

@@ -676,7 +676,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   nameTextComponent: {fileID: 1258240707}
   textComponent: {fileID: 1904657092}
-  buttonToShowAfterDialogue: {fileID: 1470697126}
+  actionAfterDialogue: 1
+  objectToShow: {fileID: 0}
+  sceneToLoad: Round2
   lines:
   - characterName: 'Player:'
     sentence: "\u201CYou know the owner of this place, don\u2019t you?\u201D"
@@ -698,8 +700,6 @@ MonoBehaviour:
   - characterName: 'Enemy:'
     sentence: " \u201CBecause the man you\u2019re hunting\u2026 might not be who
       you think he is.\u201D"
-  - characterName: Outcome
-    sentence: You obtain part of the truth, but the full picture remains unclear.
   textSpeed: 0.1
 --- !u!114 &1137955262
 MonoBehaviour:

@@ -631,7 +631,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   nameTextComponent: {fileID: 1258240707}
   textComponent: {fileID: 1904657092}
-  buttonToShowAfterDialogue: {fileID: 1470697126}
+  actionAfterDialogue: 1
+  objectToShow: {fileID: 0}
+  sceneToLoad: Round2
   lines:
   - characterName: 
     sentence: The Player raises his gun.
@@ -641,8 +643,6 @@ MonoBehaviour:
     sentence: "\u201CI didn\u2019t come here to talk.\u201D"
   - characterName: 
     sentence: BANG!
-  - characterName: 'Outcome:'
-    sentence: You clear the round, but gain no information.
   textSpeed: 0.1
 --- !u!114 &1137955262
 MonoBehaviour:

@@ -1050,7 +1050,7 @@ MonoBehaviour:
   textComponent: {fileID: 1904657092}
   actionAfterDialogue: 1
   objectToShow: {fileID: 0}
-  sceneToLoad: Round3
+  sceneToLoad: Round3 1
   lines:
   - characterName: 'Enemy:'
     sentence: "\u201CHahaha\u2026 I know who you\u2019re lookin\u2019 for.\u201D"
@@ -1076,8 +1076,6 @@ MonoBehaviour:
     sentence: "\u201C\u2026\u201D"
   - characterName: Outcome
     sentence: "\u201CBecause the owner knows about you.\u201D"
-  - characterName: Outcome
-    sentence: ' The arena owner knows the truth about the protagonist.'
   textSpeed: 0.1
 --- !u!114 &1137955262
 MonoBehaviour:
